@@ -25,16 +25,22 @@ name, surname, nickname, age = 'Mike', 'Treyu', 'miketreyu', 'XX'
 print('My name is:', name, surname, '. I am:', age, 'years old, and my nickname is', nickname)
 
 # Inputs, we use them mainly in scrips for bash, cmd, etc
-'''
+
 name = input('What is your name?:')
 age = input('How old are you?')
 
 print(name)
 print(age)
-'''
+
 # We can change the class/type
 
 name = 35
 age = 'mike'
 print(name)
 print(age)
+
+# Can we force the type/class? It is more efficient if we use that with inputs. Python's types are dinamic.
+
+adress: str = 'My adress'
+adress = 32
+print(adress)
